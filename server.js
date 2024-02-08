@@ -5,6 +5,6 @@ connectDB();
 
 app.listen(5000, () => {
   console.log(
-    `Server is working on port: 5000 `
+    `Server is working on port: ${process.env.PORT}`
   );
 });
